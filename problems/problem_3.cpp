@@ -4,18 +4,17 @@
 std::string problemSolution3(float height, char S) {
     // write your code here
 
-
-    if (S < 1.70) {
+    if (height < 1.70) {
         return "Short";
-    } else if (S >= 1.70 && S <= 1.85) {
+    } else if (height >= 1.70 && height <= 1.85) {
         return "Normal";
-    } else if (S >= 1.85) {
+    } else if (height >= 1.85) {
         return "Tall";
-    } else if (S < 1.60) {
+    } else if (height < 1.60) {
         return "Short";
-    } else if (S >= 1.60 && S <= 1.75) {
+    } else if (height >= 1.60 && height <= 1.75) {
         return "Normal";
-    } else if (S >= 1.75) {
+    } else if (height >= 1.75) {
         return "Tall";
     }
 
